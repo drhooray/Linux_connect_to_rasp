@@ -6,6 +6,7 @@
 $sudo dosfsck -w -r -l -a -t /dev/mmcblk0p1
 $exit
 
+$fsck.fat => will show command not found
 
 ref:
 1. https://www.raspberrypi.org/forums/viewtopic.php?t=117368&p=798286
