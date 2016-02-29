@@ -1,0 +1,20 @@
+#the log show below:
+#buffer overflow detected fsck from util-linux 2.20.1
+#0x25: Dirty bit is set. Fs was not properly unmounted and some data may be corrupt.
+#fsck.vfat for device /dev/mmcblk0p1 exited with signal 6
+
+$sudo dosfsck -w -r -l -a -t /dev/mmcblk0p1
+$exit
+
+
+ref:
+1. https://www.raspberrypi.org/forums/viewtopic.php?t=117368&p=798286
+2. https://www.raspberrypi.org/forums/viewtopic.php?p=495156
+3. http://serverfault.com/questions/571458/unable-to-resolve-data-corruption-warning-with-fsck
+4. https://bbs.archlinux.org/viewtopic.php?id=164185
+5. http://forums.fiveninjas.com/t/fat-fs-mmcblk0p1-please-run-fsck-fixed/730/2
+6. http://serverfault.com/questions/571458/unable-to-resolve-data-corruption-warning-with-fsck (minor)
+7. https://www.raspberrypi.org/forums/viewtopic.php?f=28&t=53365 (finally)
+
+
+
