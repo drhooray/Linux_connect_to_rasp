@@ -1,3 +1,5 @@
+boot->config.txt
+
 
 # uncomment if hdmi display is not detected and composite is being output
 hdmi_force_hotplug=1
