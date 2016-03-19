@@ -17,5 +17,7 @@ ref:
 6. http://serverfault.com/questions/571458/unable-to-resolve-data-corruption-warning-with-fsck (minor)
 7. https://www.raspberrypi.org/forums/viewtopic.php?f=28&t=53365 (finally)
 
+what is mmcblk? 
+=>mmcblk stand for MultiMediaCard BLocK device
 
 
